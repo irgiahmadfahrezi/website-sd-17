@@ -1,0 +1,247 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;  
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: #000000;
+}
+
+.menu {
+    float: right;
+
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #00fa6c;
+    z-index: 1;
+    border-bottom:1px solid #ffffff;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 20px; /* Untuk tambahan jarak bagian atas */
+}
+
+.tengah {
+    text-align: center;
+    width: 2005;
+}
+
+.apaya-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-apaya {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.kartu-apaya img {
+    width: 80%;
+    border-radius: 0%;
+}
+
+.kartu-apaya p {
+    font-family: comic sans ms;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+}
+
+#BING {
+    display: flex; /* Mengatur elemen agar berjajar horizontal */
+    align-items: center; /* Menyelaraskan elemen di tengah secara vertikal */
+    gap: 20px; /* Menambahkan jarak antar elemen */
+}
+
+#BING img {
+    max-width: 45%; /* Mengatur ukuran gambar agar lebih proporsional */
+    height: auto; /* Mempertahankan rasio gambar */
+    margin-right: 20px; /* Memberikan jarak kanan pada gambar */
+}
+
+#BING .kolom {
+    max-width: 45%; /* Batasi lebar teks agar seimbang dengan gambar */
+}
+
+.materi {
+    background-color: #ffffff;
+    border: 1px solid #c2c2c2;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.materi h2 {
+    color: #2d3e50;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.materi h3 {
+    color: #2d3e50;
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+/* Daftar pada masing-masing materi */
+.materi ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.materi ul li {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+/* Menambahkan jarak antara paragraf */
+.materi p {
+    line-height: 1.6;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+#BINDO {
+    display: flex; /* Mengatur elemen agar berjajar horizontal */
+    align-items: center; /* Menyelaraskan elemen di tengah secara vertikal */
+    gap: 20px; /* Menambahkan jarak antar elemen */
+}
+
+#BINDO img {
+    max-width: 45%; /* Mengatur ukuran gambar agar lebih proporsional */
+    height: auto; /* Mempertahankan rasio gambar */
+    margin-right: 20px; /* Memberikan jarak kanan pada gambar */
+}
+
+#BINDO .kolom {
+    max-width: 45%; /* Batasi lebar teks agar seimbang dengan gambar */
+}
+
+.materi {
+    background-color: #ffffff;
+    border: 1px solid #b0c4de;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.materi h2 {
+    color: #005f73;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.materi p {
+    line-height: 1.6;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+/* Ordered list style */
+.materi ol {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.materi ol li {
+    margin-bottom: 10px;
+}
+
+/* Unordered list style */
+.materi ul {
+    margin-left: 20px;
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.materi ul li {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+/* Menambahkan efek hover pada section */
+.materi:hover {
+    background-color: #f0f8ff;
+    border-color: #005f73;
+}
+
+.proses-hujan {
+    background-color: #ffffff;
+    border: 2px solid #60a5fa;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.proses-hujan h2 {
+    color: #1d4ed8;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.proses-hujan p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Efek hover untuk setiap section */
+.proses-hujan:hover {
+    background-color: #f0f9ff;
+    border-color: #0ea5e9;
+    transition: background-color 0.3s, border-color 0.3s;
+}   

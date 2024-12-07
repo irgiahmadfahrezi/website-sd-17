@@ -1,0 +1,191 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;  
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: #000000;
+}
+
+.menu {
+    float: right;
+
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #fa0000;
+    z-index: 1;
+    border-bottom:1px solid #ffffff;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 20px; /* Untuk tambahan jarak bagian atas */
+}
+
+.tengah {
+    text-align: center;
+    width: 2005;
+}
+
+.apaya-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-apaya {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.kartu-apaya img {
+    width: 80%;
+    border-radius: 0%;
+}
+
+.kartu-apaya p {
+    font-family: comic sans ms;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+}
+
+#BING {
+    display: flex; /* Mengatur elemen agar berjajar horizontal */
+    align-items: center; /* Menyelaraskan elemen di tengah secara vertikal */
+    gap: 20px; /* Menambahkan jarak antar elemen */
+}
+
+#BING img {
+    max-width: 45%; /* Mengatur ukuran gambar agar lebih proporsional */
+    height: auto; /* Mempertahankan rasio gambar */
+    margin-right: 20px;
+    margin-left: 20px; /* Memberikan jarak kanan pada gambar */
+}
+
+#BING .kolom {
+    max-width: 45%; /* Batasi lebar teks agar seimbang dengan gambar */
+}
+
+.materi, .latihan {
+    margin-bottom: 20px;
+}
+
+.materi h2, .latihan h2 {
+    color: #0066cc;
+}
+
+ul, ol {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 24px;
+    color: #0066cc;
+    margin-bottom: 10px;
+}
+
+#BINDO {
+    display: flex; /* Mengatur elemen agar berjajar horizontal */
+    align-items: center; /* Menyelaraskan elemen di tengah secara vertikal */
+    gap: 20px; /* Menambahkan jarak antar elemen */
+}
+
+#BINDO img {
+    max-width: 45%; /* Mengatur ukuran gambar agar lebih proporsional */
+    height: auto; /* Mempertahankan rasio gambar */
+    margin-right: 20px; /* Memberikan jarak kanan pada gambar */
+}
+
+#BINDO .kolom {
+    max-width: 45%; /* Batasi lebar teks agar seimbang dengan gambar */
+}
+
+.materi, .latihan {
+    margin-bottom: 20px;
+}
+
+.materi h2, .latihan h2 {
+    color: #0066cc;
+}
+
+ul, ol {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 24px;
+    color: #0066cc;
+    margin-bottom: 10px;
+}
+
+
+.materi, .latihan {
+    margin-bottom: 20px;
+}
+
+.materi h2, .latihan h2 {
+    color: #0066cc;
+}
+
+ul, ol {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 24px;
+    color: #0066cc;
+    margin-bottom: 10px;
+}
